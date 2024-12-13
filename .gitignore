@@ -3,6 +3,25 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Ignore Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Tt]arget/
+.obj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+
+
+# Unity temp and system files
+*.vsconfig
+
+# Ignore user-specific settings
+UserSettings/
+
+# Ignore project-specific files that are typically regenerated
+*.csproj
+
 # User-specific files
 *.rsuser
 *.suo
